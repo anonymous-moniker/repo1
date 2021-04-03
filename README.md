@@ -6,7 +6,7 @@ This repository consists of the notebooks and results used in our experiment.
 - The `result` directory has the `.npy` files for all our experiments.
 - The `analysis` directory has the images in `.pdf` format for the accuracy comparisons among all the sampling techniques.
 - The `model` directory has the saved weights for the Neural Netowrk used in the Variational autoencoder.
-
+- The `coresets` directory has the packages and codes for coreset construction using sensitivity sampling. This module is acquired from the original paper.
 
 ## Running the notebooks
 - The notebooks named `* class classification Unscented Transform.ipynb` contain the calculation of ***Sigma point sampling*** and active learning accuracies
